@@ -1,0 +1,75 @@
+{
+  "looting": {
+    "minCapacity": 100,
+    "everyItem": false,
+    "containers": [
+
+    ],
+    "items": [
+
+    ],
+    "maxDanger": 10
+  },
+  "targeting": [
+    {
+      "avoidAttacks": false,
+      "chase": false,
+      "dontLoot": false,
+      "lureMax": 3,
+      "delayFrom": 2,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "lureDelay": 250,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "rpSafe": false,
+      "lureCavebot": false,
+      "lure": false,
+      "regex": "^adorator$",
+      "rePositionAmount": 5,
+      "anchorRange": 3,
+      "keepDistanceRange": 1,
+      "faceMonster": false,
+      "diamondArrows": false,
+      "maxDistance": 10,
+      "name": "adorator",
+      "danger": 1,
+      "anchor": false,
+      "priority": 1,
+      "dynamicLureDelay": false,
+      "rePosition": false,
+      "lureCount": 1,
+      "keepDistance": false
+    },
+    {
+      "avoidAttacks": false,
+      "chase": true,
+      "dontLoot": false,
+      "lureMax": 3,
+      "delayFrom": 2,
+      "lureMin": 1,
+      "dynamicLure": false,
+      "priority": 1,
+      "closeLure": false,
+      "closeLureAmount": 3,
+      "rpSafe": false,
+      "lureCavebot": false,
+      "lureCount": 1,
+      "regex": "^lilith$",
+      "rePositionAmount": 5,
+      "name": "lilith",
+      "keepDistanceRange": 2,
+      "faceMonster": false,
+      "rePosition": false,
+      "diamondArrows": false,
+      "dynamicLureDelay": false,
+      "danger": 1,
+      "anchor": false,
+      "lure": false,
+      "anchorRange": 3,
+      "lureDelay": 250,
+      "maxDistance": 10,
+      "keepDistance": false
+    }
+  ]
+}
