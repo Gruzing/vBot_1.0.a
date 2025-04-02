@@ -1,0 +1,153 @@
+{
+  "healbot": [
+    {
+      "Cooldown": false,
+      "Interval": false,
+      "spellTable": [
+        {
+          "index": 1,
+          "spell": "steelbody",
+          "sign": "<",
+          "origin": "HP",
+          "value": 20,
+          "cost": 1,
+          "enabled": true
+        },
+        {
+          "index": 2,
+          "spell": "exana mort",
+          "sign": "<",
+          "origin": "HP",
+          "value": 80,
+          "cost": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true,
+      "Delay": false,
+      "MessageDelay": false,
+      "Visible": false,
+      "itemTable": [
+        {
+          "index": 1,
+          "value": 55,
+          "item": 7643,
+          "origin": "HP",
+          "sign": "<",
+          "enabled": true
+        },
+        {
+          "index": 3,
+          "value": 74,
+          "item": 238,
+          "origin": "MP%",
+          "sign": "<",
+          "enabled": true
+        },
+        {
+          "index": 2,
+          "value": 75,
+          "item": 3157,
+          "origin": "MP%",
+          "sign": "<",
+          "enabled": false
+        }
+      ],
+      "Conditions": false,
+      "name": "Profile #1"
+    },
+    {
+      "Cooldown": true,
+      "Interval": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "Delay": true,
+      "MessageDelay": false,
+      "Visible": true,
+      "itemTable": [
+
+      ],
+      "Conditions": true,
+      "name": "Profile #2"
+    },
+    {
+      "Cooldown": true,
+      "Interval": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "Delay": true,
+      "MessageDelay": false,
+      "Visible": true,
+      "itemTable": [
+
+      ],
+      "Conditions": true,
+      "name": "Profile #3"
+    },
+    {
+      "Cooldown": true,
+      "Interval": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "Delay": true,
+      "MessageDelay": false,
+      "Visible": true,
+      "itemTable": [
+
+      ],
+      "Conditions": true,
+      "name": "Profile #4"
+    },
+    {
+      "Cooldown": true,
+      "Interval": true,
+      "spellTable": [
+
+      ],
+      "enabled": false,
+      "Delay": true,
+      "MessageDelay": false,
+      "Visible": true,
+      "itemTable": [
+
+      ],
+      "Conditions": true,
+      "name": "Profile #5"
+    }
+  ],
+  "ConditionPanel": {
+    "stopHaste": true,
+    "curePosion": false,
+    "utanaCost": 440,
+    "poisonCost": 20,
+    "cureCurse": false,
+    "curseCost": 80,
+    "cureBleed": false,
+    "bleedCost": 45,
+    "electrifyCost": 22,
+    "cureBurn": false,
+    "burnCost": 30,
+    "cureParalyse": true,
+    "paralyseCost": 40,
+    "paralyseSpell": "utani hur",
+    "holdHaste": false,
+    "hasteCost": 200,
+    "cureElectrify": false,
+    "holdUtana": false,
+    "holdUtamo": false,
+    "utamoCost": 40,
+    "holdUtura": false,
+    "uturaType": "",
+    "uturaCost": 100,
+    "ignoreInPz": true,
+    "hasteSpell": "mega hur",
+    "enabled": true
+  },
+  "currentHealBotProfile": 1
+}

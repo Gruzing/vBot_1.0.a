@@ -1,0 +1,23 @@
+{
+  "supplies": {
+    "currentProfile": "Ekaa",
+    "Ekaa": {
+      "staminaSwitch": true,
+      "staminaValue": "37",
+      "items": {
+        "11719": {
+          "min": 4,
+          "max": 10,
+          "avg": 0
+        }
+      }
+    },
+    "Default": {
+      "staminaSwitch": true,
+      "staminaValue": "36",
+      "items": [
+
+      ]
+    }
+  }
+}
