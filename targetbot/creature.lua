@@ -54,6 +54,12 @@ end
 TargetBot.Creature.getConfigs = function(creature)
   if not creature then return {} end
   local name = creature:getName():trim():lower()
+if storage.ignoreCreatures then
+    local ignoreList = storage.ignoreCreatures:split('\n')
+    for k, v in ipairs(ignoreList) do
+      if v:lower() == name then return {} end
+   end
+  end
   -- this function may be slow, so it will be using cache
   if TargetBot.Creature.configsCache[name] then
     return TargetBot.Creature.configsCache[name]
