@@ -103,3 +103,10 @@ TargetBot.Creature.calculateDanger = function(creature, config, path)
   -- config is based on creature_editor
   return config.danger
 end
+
+
+setDefaultTab("Target")
+ignoreCreatures = UI.TextEdit(storage.ignoreCreatures, function(widget, newText)
+    widget:setTooltip("Creatures names to ignore.\nSeparated by commas.\neg:'deer,rabbit,hyaena'")
+    storage.ignoreCreatures = newText
+end)
