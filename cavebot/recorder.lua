@@ -22,8 +22,8 @@ local function setup()
     elseif newPos.z ~= oldPos.z or math.abs(oldPos.x - newPos.x) > 1 or math.abs(oldPos.y - newPos.y) > 1 then
       -- stairs/teleport
       addStairs(oldPos)
-    elseif math.max(math.abs(lastPos.x - newPos.x), math.abs(lastPos.y - newPos.y)) > 5 then
-      -- 5 steps from last pos
+    elseif math.max(math.abs(lastPos.x - newPos.x), math.abs(lastPos.y - newPos.y)) > 8 then
+      -- 8 steps from last pos
       addPosition(newPos)
     end
   end)
