@@ -11,9 +11,9 @@ CaveBot.Config.setup = function()
   
   add("ping", "Server ping", 100)
   add("walkDelay", "Walk delay", 10)
-  add("mapClick", "Use map click", false)
+  add("mapClick", "Use map click", true)
   add("mapClickDelay", "Map click delay", 100)
-  add("ignoreFields", "Ignore fields", false)  
+  add("ignoreFields", "Ignore fields", true)  
   add("skipBlocked", "Skip blocked path", false)  
   add("useDelay", "Delay after use", 400)
 end
