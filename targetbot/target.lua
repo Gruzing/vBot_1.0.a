@@ -36,7 +36,7 @@ end
 local oldTibia = g_game.getClientVersion() < 960
 
 -- main loop, controlled by config
-targetbotMacro = macro(100, function()
+targetbotMacro = macro(200, function()
   local pos = player:getPosition()
   local specs = g_map.getSpectatorsInRange(pos, false, 6, 6) -- 12x12 area
   local creatures = 0
