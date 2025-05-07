@@ -23,7 +23,7 @@ end
 -- main loop, controlled by config
 local actionRetries = 0
 local prevActionResult = true
-cavebotMacro = macro(100, function()
+cavebotMacro = macro(20, function()
   if TargetBot and TargetBot.isActive() and not TargetBot.isCaveBotActionAllowed() then
     CaveBot.resetWalking()
     return -- target bot or looting is working, wait
